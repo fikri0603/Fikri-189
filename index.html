@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MindWell Clinic</title>
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet" />
+    <!--Feather Icon-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!--My style-->
+    <link rel="stylesheet" href="CSS/style.css" />
+</head>
+
+<body>
+    <!--Navbar Start-->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">MindWell<span>Clinic</span>.</a>
+
+        <div class="navbar-nav">
+            <a href="#">Home</a>
+            <a href="#about">Jadwal Konsultasi</a>
+            <a href="#buatjanji">Buat Janji</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#" id="phone"><i data-feather="phone"></i></a>
+            <a href="#" id=""><i data-feather="search"></i></a>
+            <a href="#" id="humberger-menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+    <!--Navbar End-->
+
+    <!--Hero Section Start-->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Selamat Datang di Klinik Kami</h1>
+            <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                dolorem beatae vitae dolor voluptatum atque sapiente, sequi
+                repellendus perspiciatis non quidem commodi reprehenderit adipisci
+                earum fuga quas ea nam blanditiis.
+                <br />
+                <a href="#" class="cta">HUBUNGI KAMI</a>
+            </h3>
+        </main>
+    </section>
+    <!--Hero Section End-->
+
+    <!--about Section start-->
+    <section id="about" class="about">
+        <h2><span>Jadwal</span> Konsultasi</h2>
+        <div class="row">
+            <div class="about-img">
+                <img src="img/dokter1.jpg" alt="Jadwal Konsultasi" />
+                <h2>Dr. Amira M.Psi</h2>
+            </div>
+            <div class="content">
+                <h1>Hari senin - kamis buka pukul 08.00 s/d 11.00</h1>
+                <h1>Hari Jum'at buka pukul 07.00 s/d 10.30</h1>
+                <h1>Hari Sabtu buka 7.30 s/d 15.30</h1>
+            </div>
+        </div>
+    </section>
+    <!--about Section end-->
+
+    <!--buatjanji section Start-->
+    <form id="" action="proses_janji.php" method="post">
+        <section id="buatjanji" class="buatjanji">
+            <h2><span>Buat</span> Janji</h2>
+            <div class="input-group">
+                <i data-feather="user"></i>
+                <input type="text" id="nama" name="nama" placeholder="Nama"required />
+            </div>
+            <div class="input-group">
+                <i data-feather="phone"></i>
+                <input type="text" id="nomor" name="nomor" placeholder="No.hp"required />
+            </div>
+            <div>
+                <select class="tulis" id="tanggal" name="tanggal" required>
+                    <option value="">Pilih Hari Konsultasi</option>
+                    <option value="Hari senin - kamis buka pukul 08.00 s/d 11.00">
+                        Hari senin - kamis buka pukul 08.00 s/d 11.00
+                    </option>
+                    <option value="Hari Jum'at buka pukul 07.00 s/d 10.30">
+                        Hari Jum'at buka pukul 07.00 s/d 10.30
+                    </option>
+                    <option value="Hari Sabtu buka 7.30 s/d 15.30">
+                        Hari Sabtu buka 7.30 s/d 15.30
+                    </option>
+                </select>
+                <button type="submit" class="btn-submit">Buat Janji</button>
+    </form>
+    </section>
+    <!--buat janji section end-->
+
+    <!--Feather Icon-->
+    <script>
+        feather.replace();
+    </script>
+    <script src="CSS/JS/script.js"></script>
+</body>
+
+</html>

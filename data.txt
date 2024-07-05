@@ -1,0 +1,16 @@
+Nama: asdas
+No Telpon: asd
+Tanggal: Hari senin - kamis buka pukul 08.00 s/d 11.00
+
+Nama: asdasd
+No Telpon: 12312
+Tanggal: Hari Sabtu buka 7.30 s/d 15.30
+
+Nama: asdas
+No Telpon: 123
+Tanggal: Hari senin - kamis buka pukul 08.00 s/d 11.00
+
+Nama: asdas
+No Telpon: asdas
+Tanggal: Hari senin - kamis buka pukul 08.00 s/d 11.00
+
